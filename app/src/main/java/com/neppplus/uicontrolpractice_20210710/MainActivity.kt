@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
 
 //                  토스트의 문구로 사용. (기록해둔 값 사용)
-            Toast.makeText(this, inputContent, Toast.LENGTH_SHORT).show()
+//            Toast.makeText(this, inputContent, Toast.LENGTH_SHORT).show()
 
 
 
@@ -29,7 +29,22 @@ class MainActivity : AppCompatActivity() {
                 resultTxt.text = inputContent
 
 
-        }
+//                 만약, 입력한 내용이 "안녕" 이라면, "인사문구입니다." 토스트 출력
+                if(inputContent=="안녕" || inputContent == "안녕하세요"){
 
+                    Toast.makeText(this, "인사문구입니다.", Toast.LENGTH_SHORT).show()   
+                    
+                }  
+                else if(inputContent=="바이"){
+                    Toast.makeText(this, "작별인사입니다.", Toast.LENGTH_SHORT).show()           
+                    
+                }            
+                else if(inputContent=="굿모닝"){
+                    Toast.makeText(this, "아침인사입니다.", Toast.LENGTH_SHORT).show()
+                }
+                else {
+                    Toast.makeText(this, "그 외의 문장입니다.", Toast.LENGTH_SHORT).show()
+                }
+        }
     }
 }

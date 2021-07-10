@@ -21,7 +21,12 @@
         android:layout_height="wrap_content"
         android:text="문장을 토스트로 띄워줍니다."/>
 
-
+    <TextView
+        android:id="@+id/resultTxt"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="위에서 입력한 내용이 반영됩니다."/>
 
 
 

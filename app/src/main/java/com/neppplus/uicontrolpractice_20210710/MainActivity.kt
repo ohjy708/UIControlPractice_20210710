@@ -23,6 +23,12 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, inputContent, Toast.LENGTH_SHORT).show()
 
 
+
+//                  resultTxt 의 text 속성에, inputContent의 내용을 넣어주자.
+
+                resultTxt.text = inputContent
+
+
         }
 
     }

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/contentEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="아무 문장이나 입력해보세요."/>
+
+    <Button
+        android:id="@+id/toastBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="문장을 토스트로 띄워줍니다."/>
+
+
+
+
+
+
+</LinearLayout>
